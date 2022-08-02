@@ -1,0 +1,48 @@
+let age = 17;
+age = 16;
+// переменные которые можно будет позже поменять.
+
+const books = 6;
+books = 6;
+// переменные которые невозможно позже поменять.
+
+// // - комментарий, он нужен для описания кода.
+
+const greeting = 'Hello, world!';
+console.log (greeting);
+// вывести переменнуб greeting в консоль.
+
+const apples = 4;
+const pears = 3;
+const fruits = (apples + pears);
+console.log(fruits);
+// ctrl + X стереть строку
+
+let amount = 18;
+const cookiePrice = 7;
+const candyPrice = 8;
+amount = amount - cookiePrice;
+console.log ('Amount is', amount);
+
+const hasEnoughMoney = amount >= candyPrice;
+if (hasEnoughMoney) {
+    console.log ('I have enough money');
+} else {
+    console.log ('I do not have enough money');
+}
+
+
+// типы данных: строки, числа, (true/false)
+const brand = 'Toyota';
+const price = 22500;
+const isSedan = true;
+const wings = undefined;
+const owner = null;
+
+// математика
+let x = 10 + 1;
+let d = 10 - 1;
+let f = 10 * 1;
+let g = 10 / 1;
+let h = 10 ** 1; // ** - степень(число само себя умножает)
+let j = 10 % 1; // % - остаток
